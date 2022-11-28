@@ -15,7 +15,7 @@ namespace VanishPanel
         [STAThread]
         static void Main()
         {
-            OnProgramStart.Initialize("vanish panel", "188811", "72XQ0ZfEQ6W1KWR8kIYjtCYuxBrU2yctWT7", "1.0");
+            OnProgramStart.Initialize("vanish panel", "188811", "", "1.0");
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
